@@ -60,7 +60,7 @@ Initialiser un projet Node.js/Express, et créer une API REST permettant de :
 
   * dans un premier temps, le code derrière chaque route peut juste prendre en compte les données intrinsèques à l'article,
   * dans un deuxième temps, on peut y ajouter le code permettant de gérer les données associées (création et association de tags) - **ou** le placer dans des routes distinctes
-* Ajouter/modifier/mettre à jour/supprimer un commentaire
+* Ajouter/modifier/supprimer un commentaire
 * Ajouter/enlever un article des "favoris"
 * Ajouter/enlever un article des "à lire"
 * Ajouter/enlever un auteur des "suivis"
