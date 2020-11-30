@@ -1,0 +1,133 @@
+/* Common */
+body, html {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #669;
+}
+header {
+  background-color: #f4f4f4;
+  padding: 2em;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3em;
+}
+.container {
+  max-width: 48em;
+  margin: 0 auto;
+}
+
+/* Home page */
+.post {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 2.5em;
+}
+.post-left {
+  flex-grow: 1;
+  margin-right: 2em;
+}
+.post-header-img {
+  max-width: 1.5em;
+  margin-right: 0.5em;
+}
+.post-header {
+  display: flex;
+}
+.post-header-author {
+  color: #222;
+}
+.post-title {
+  margin: 0;
+}
+.post-summary {
+  margin: 0.5em 0;
+  font-size: 1.25em;
+  color: #888;
+}
+.post-meta {
+  display: flex;
+  color: #888;
+}
+.post-meta-inner {
+  flex-grow: 1;
+}
+.post-meta-img {
+  max-width: 1.25em;
+}
+.post-right img {
+  margin-top: 1em;
+}
+
+/* Post details page */
+.post-details-meta {
+  display: flex;
+  color: #888;
+  margin-bottom: 2em;
+}
+.post-details-meta img {
+  max-width: 3em;
+  margin-right: 1em;
+}
+.post-details-meta .follow {
+  background-color: transparent;
+  padding: 0.25em 1em;
+  border: 1px solid #99d;
+  color: #99d;
+  border-radius: 3px;
+}
+.post-details img {
+  max-width: 100%;
+}
+.post-details p {
+  font-size: 1.2em;
+  color: #444;
+}
+.post-tags {
+  margin: 3em 0 2em;
+}
+.post-tags a.tag {
+  color: #333;
+  background: #ddd;
+  padding: 0.75em 1em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+}
+.post-social {
+  display: flex;
+  font-size: 1.25em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #eee;
+}
+.post-social-items {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.post-social img {
+  max-width: 1em;
+  margin-right: 0.5em;
+}
+.post-social .sep-left {
+  margin-left: 1.5em;
+}
+.comment {
+  margin: 2em 0;
+}
+.comment-header {
+  display: flex;
+}
+.comment-header img {
+  max-width: 1.5em;
+  margin-right: 0.5em;
+}
+.comment-header-author {
+  margin: 0em 0 0.25em 0;
+  color: #888;
+}
+.comment-content {
+  margin: 0.5em 0 1em 0;
+  color: #444;
+}
