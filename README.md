@@ -14,9 +14,9 @@ Quelques différences avec Medium et Ghost (si vous connaissez l'un et/ou l'autr
 * Un article pourra être mis dans une liste "à lire" par un utilisateur
 * Un utilisateur pourra "suivre" (_follow_) un autre utilisateur
 
-## "Carte" du site
+## 1. "Carte" du site
 
-### Page d'accueil
+### 1.1. Page d'accueil
 
 Sur la page d'accueil, on va vouloir afficher :
 
@@ -34,7 +34,7 @@ Chaque article de la page d'accueil comporte plusieurs liens :
 
 Dans un premier temps, on va s'occuper surtout du dernier.
 
-### Détails d'un article
+### 1.2. Détails d'un article
 
 La page de détails d'un article (voir `mockup/some-post/index.html`) affiche quelques informations en plus :
 
@@ -43,9 +43,24 @@ La page de détails d'un article (voir `mockup/some-post/index.html`) affiche qu
 * Le nombre de "likes"
 * Le nombre de commentaires, et les commentaires eux-mêmes (pour information : Medium ne charge pas les commentaires par défaut, mais ici on va considérer qu'on les charge directement)
 
-## Exercice - Modélisation
+## 2. Exercice - Modélisation
 
 À partir des maquettes, il s'agit :
 
 1. D'imaginer la forme des données JSON que le serveur devrait nous transmettre pour pouvoir afficher chacune des deux pages (accueil et détails d'un article).
-2. De modéliser la base de données
+2. De modéliser la base de données (MCD, MLD, MPD)
+
+## 3. Exercice - Construction d'une API REST
+
+Initialiser un projet Node.js/Express, et créer une API REST permettant de :
+
+* Ajouter/modifier/mettre à jour/supprimer un article
+
+  * dans un premier temps, le code derrière chaque route peut juste prendre en compte les données intrinsèques à l'article,
+  * dans un deuxième temps, on peut y ajouter le code permettant de gérer les données associées (création et association de tags) - **ou** le placer dans des routes distinctes
+* Ajouter/modifier/mettre à jour/supprimer un commentaire
+* Ajouter/enlever un article des "favoris"
+* Ajouter/enlever un article des "à lire"
+* Ajouter/enlever un auteur des "suivis"
+
+En bonus : créer des jeux de tests d'intégration pour chaque route.
