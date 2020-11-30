@@ -56,7 +56,7 @@ Initialiser un projet Node.js/Express, et créer une API REST permettant de :
 
 * Récupérer tous les articles
 * Récupérer un article avec les données associées (tags, commentaires, informations sur l'auteur...)
-* Ajouter/modifier/mettre à jour/supprimer un article
+* Ajouter/modifier/supprimer un article
 
   * dans un premier temps, le code derrière chaque route peut juste prendre en compte les données intrinsèques à l'article,
   * dans un deuxième temps, on peut y ajouter le code permettant de gérer les données associées (création et association de tags) - **ou** le placer dans des routes distinctes
