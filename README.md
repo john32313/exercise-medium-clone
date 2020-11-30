@@ -54,6 +54,8 @@ La page de détails d'un article (voir `mockup/some-post/index.html`) affiche qu
 
 Initialiser un projet Node.js/Express, et créer une API REST permettant de :
 
+* Récupérer tous les articles
+* Récupérer un article avec les données associées (tags, commentaires, informations sur l'auteur...)
 * Ajouter/modifier/mettre à jour/supprimer un article
 
   * dans un premier temps, le code derrière chaque route peut juste prendre en compte les données intrinsèques à l'article,
